@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY";
+const GEMINI_API_KEY = PropertiesService.getScriptProperties().getProperty('GEMINI_API_KEY');
 
 function doPost(e) {
   const videoTitle = JSON.parse(e.postData.contents).videoTitle;
