@@ -1,4 +1,5 @@
-const proxyUrl = "https://script.google.com/macros/s/AKfycbywfoiHoRVsg86wWBSgGaCXNMwYeo33UYdOZKcsLBgX7fZXXo_--Zjxow3XOOUs03Oa/exec";
+const proxyUrl = "https://script.google.com/macros/s/AKfycbyczmCu42RSyTvP2Cr_P7BwN09YyVf9WRfYyN7Hu6ciz0aUVGFRZRD9OUgtG6bJrfR6/exec";
+
 // The "SPA Fix": Listen for YouTube's internal navigation
 window.addEventListener('yt-navigate-finish', () => {
   if (window.location.pathname === '/watch') {
