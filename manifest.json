@@ -4,7 +4,10 @@
   "version": "1.0",
   "description": "An AI-powered skeptic button to analyze YouTube titles for logical holes.",
   "permissions": ["activeTab"],
-  "host_permissions": ["https://script.google.com/*"],
+  "host_permissions": [
+    "https://script.google.com/*",
+    "https://script.googleusercontent.com/*"
+  ],
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
